@@ -6,11 +6,8 @@ public class Onedotthirteen {
         double c = 2.1;
         double d = 0.55;
         double f = 5.9;
-        double xnum = ((e * d) - (b * f));
-        double ynum = ((a * f) - (e * c));
-        double denom = ((a * d) - (b * c));
-        double x = xnum / denom;
-        double y = ynum / denom;
+        double x = ((e * d) - (b * f)) / ((a * d) - (b * c));
+        double y = ((a * f) - (e * c)) / ((a * d) - (b * c));
         System.out.println("x is " + x);
         System.out.println("y is " + y);
     }
